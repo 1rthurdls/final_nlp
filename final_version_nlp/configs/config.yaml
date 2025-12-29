@@ -1,0 +1,56 @@
+# Configuration file for ABSA project
+
+data:
+  raw_dir: "data/"
+  processed_dir: "data/processed/"
+  train_file: "semeval2014_restaurants_train.csv"
+  test_file: "semeval2014_restaurants_test.csv"
+  trial_file: "semeval2014_restaurants_trial.csv"
+  max_seq_length: 128
+
+model:
+  name: "bert-base-uncased"
+  dropout: 0.1
+  num_aspect_labels: 3  # positive, negative, neutral
+  num_category_labels: 5  # food, service, ambience, price, anecdotes
+  hidden_dim: 768
+  learning_rate: 2e-5
+  warmup_steps: 500
+
+training:
+  batch_size: 16
+  num_epochs: 10
+  gradient_accumulation_steps: 2
+  max_grad_norm: 1.0
+  early_stopping_patience: 3
+  save_dir: "models/checkpoints/"
+  log_dir: "models/logs/"
+  seed: 42
+  device: "cuda"  # or "cpu"
+
+evaluation:
+  batch_size: 32
+  metrics:
+    - "f1"
+    - "precision"
+    - "recall"
+    - "accuracy"
+
+ablation:
+  experiments:
+    - name: "no_pretrained"
+      description: "Train from scratch without BERT pretrained weights"
+    - name: "no_joint"
+      description: "Separate models for aspect and sentiment"
+    - name: "no_crf"
+      description: "Without CRF layer for sequence tagging"
+    - name: "smaller_model"
+      description: "Using distilbert instead of bert-base"
+
+demo:
+  title: "Aspect-Based Sentiment Analysis"
+  description: "Extract aspects and their sentiments from restaurant reviews"
+  examples:
+    - "The food was amazing but the service was terrible."
+    - "Great ambience and reasonable prices."
+    - "The pizza was delicious and the staff were friendly."

@@ -1,0 +1,20 @@
+# Requirements for ABSA Data Extraction Module
+#
+# This module uses only Python standard library components
+# Python 3.7+ is recommended
+#
+# Core dependencies (all included in Python standard library):
+# - xml.etree.ElementTree (XML parsing)
+# - json (JSON handling)
+# - csv (CSV handling)
+# - dataclasses (Data models)
+# - typing (Type hints)
+# - pathlib (Path handling)
+# - logging (Logging)
+#
+# Optional dependencies for enhanced functionality:
+# numpy>=1.19.0              # For numerical operations
+# pandas>=1.2.0              # For dataframe conversion
+# scikit-learn>=0.24.0       # For ML preprocessing
+# matplotlib>=3.3.0          # For visualization
+# seaborn>=0.11.0            # For enhanced visualization

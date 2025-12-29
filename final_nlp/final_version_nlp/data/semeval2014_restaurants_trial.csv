@@ -1,0 +1,157 @@
+sentenceId,text,aspectTerms,aspectCategories
+813,"All the appetizers and salads were fabulous, the steak was mouth watering and the pasta was delicious!!!","[{'term': 'appetizers', 'polarity': 'positive', 'from': '8', 'to': '18'}
+ {'term': 'salads', 'polarity': 'positive', 'from': '23', 'to': '29'}
+ {'term': 'steak', 'polarity': 'positive', 'from': '49', 'to': '54'}
+ {'term': 'pasta', 'polarity': 'positive', 'from': '82', 'to': '87'}]","[{'category': 'food', 'polarity': 'positive'}]"
+1579,And really large portions.,"[{'term': 'portions', 'polarity': 'positive', 'from': '17', 'to': '25'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2707,Go inside and you won't want to leave.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3126,Save yourself the time and trouble and skip this one!,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'negative'}]"
+2882,The sweet lassi was excellent as was the lamb chettinad and the garlic naan but the rasamalai was forgettable.,"[{'term': 'sweet lassi', 'polarity': 'positive', 'from': '4', 'to': '15'}
+ {'term': 'lamb chettinad', 'polarity': 'positive', 'from': '41', 'to': '55'}
+ {'term': 'garlic naan', 'polarity': 'positive', 'from': '64', 'to': '75'}
+ {'term': 'rasamalai', 'polarity': 'negative', 'from': '84', 'to': '93'}]","[{'category': 'food', 'polarity': 'conflict'}]"
+1609,Service was quick.,"[{'term': 'Service', 'polarity': 'positive', 'from': '0', 'to': '7'}]","[{'category': 'service', 'polarity': 'positive'}]"
+3018,"Oh, don't even let me start with how expensive the bills were!","[{'term': 'bills', 'polarity': 'negative', 'from': '51', 'to': '56'}]","[{'category': 'price', 'polarity': 'negative'}]"
+3292,Service is top notch.,"[{'term': 'Service', 'polarity': 'positive', 'from': '0', 'to': '7'}]","[{'category': 'service', 'polarity': 'positive'}]"
+2041,The best thing I tasted were the lambc hops.,"[{'term': 'lambc hops', 'polarity': 'positive', 'from': '33', 'to': '43'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2609,Overall I would recommend it and go back again.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1194,I've been here a couple of times and have not been impressed.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'negative'}]"
+3440,"Even though its good seafood, the prices are too high.","[{'term': 'seafood', 'polarity': 'positive', 'from': '21', 'to': '28'}
+ {'term': 'prices', 'polarity': 'negative', 'from': '34', 'to': '40'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'negative'}]"
+870,"In addition, the food is very good and the prices are reasonable.","[{'term': 'food', 'polarity': 'positive', 'from': '17', 'to': '21'}
+ {'term': 'prices', 'polarity': 'positive', 'from': '43', 'to': '49'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}]"
+2507,The food is great and authentic.,"[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}]","[{'category': 'food', 'polarity': 'positive'}]"
+586,I was at Rao's last Wed.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+3081,"I recommend the garlic shrimp, okra (bindi), and anything with lamb.","[{'term': 'garlic shrimp', 'polarity': 'positive', 'from': '16', 'to': '29'}
+ {'term': 'okra (bindi)', 'polarity': 'positive', 'from': '31', 'to': '43'}
+ {'term': 'lamb', 'polarity': 'positive', 'from': '63', 'to': '67'}]","[{'category': 'food', 'polarity': 'positive'}]"
+1884,"The menu was impressive with selections ranging from a burger, to steak, to escargot.","[{'term': 'menu', 'polarity': 'positive', 'from': '4', 'to': '8'}
+ {'term': 'burger', 'polarity': 'neutral', 'from': '55', 'to': '61'}
+ {'term': 'steak', 'polarity': 'neutral', 'from': '66', 'to': '71'}
+ {'term': 'escargot', 'polarity': 'neutral', 'from': '76', 'to': '84'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2077,very good breads as well.,"[{'term': 'breads', 'polarity': 'positive', 'from': '10', 'to': '16'}]","[{'category': 'food', 'polarity': 'positive'}]"
+201,"Anyway, the food is good, the price is right and they have a decent wine list.","[{'term': 'food', 'polarity': 'positive', 'from': '12', 'to': '16'}
+ {'term': 'price', 'polarity': 'positive', 'from': '30', 'to': '35'}
+ {'term': 'wine list', 'polarity': 'positive', 'from': '68', 'to': '77'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}]"
+3049,The food was lousy -too sweet or too salty and the portions tiny.,"[{'term': 'food', 'polarity': 'negative', 'from': '4', 'to': '8'}
+ {'term': 'portions', 'polarity': 'negative', 'from': '51', 'to': '59'}]","[{'category': 'food', 'polarity': 'negative'}]"
+1242,But the coconut rice was good.,"[{'term': 'coconut rice', 'polarity': 'positive', 'from': '8', 'to': '20'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2211,And the Tom Kha soup was pathetic.,"[{'term': 'Tom Kha soup', 'polarity': 'negative', 'from': '8', 'to': '20'}]","[{'category': 'food', 'polarity': 'negative'}]"
+3343,The food now is inconsistent.,"[{'term': 'food', 'polarity': 'negative', 'from': '4', 'to': '8'}]","[{'category': 'food', 'polarity': 'negative'}]"
+2141,"Try the crunchy tuna, it is to die for.","[{'term': 'crunchy tuna', 'polarity': 'positive', 'from': '8', 'to': '20'}]","[{'category': 'food', 'polarity': 'positive'}]"
+83,Reasonable prices.,"[{'term': 'prices', 'polarity': 'positive', 'from': '11', 'to': '17'}]","[{'category': 'price', 'polarity': 'positive'}]"
+381,Everything at Sala Thai is tasty and well-portioned.,[],"[{'category': 'food', 'polarity': 'positive'}]"
+3315,Add to that great service and great food at a reasonable price and you have yourself the beginning of a great evening.,"[{'term': 'service', 'polarity': 'positive', 'from': '18', 'to': '25'}
+ {'term': 'food', 'polarity': 'positive', 'from': '36', 'to': '40'}
+ {'term': 'price', 'polarity': 'positive', 'from': '57', 'to': '62'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}
+ {'category': 'service', 'polarity': 'positive'}]"
+1709,"Unfortunately, the food was NOT something to get worked up about.","[{'term': 'food', 'polarity': 'negative', 'from': '19', 'to': '23'}]","[{'category': 'food', 'polarity': 'negative'}]"
+193,The food is great and reasonably priced.,"[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}
+ {'term': 'priced', 'polarity': 'positive', 'from': '33', 'to': '39'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}]"
+2459,I got enough reasons to keep coming back!!!,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1293,"Their calzones are horrific, bad, vomit-inducing, YUCK.","[{'term': 'calzones', 'polarity': 'negative', 'from': '6', 'to': '14'}]","[{'category': 'food', 'polarity': 'negative'}]"
+2105,"A few tips: skip the turnip cake, roast pork buns and egg custards.","[{'term': 'turnip cake', 'polarity': 'negative', 'from': '21', 'to': '32'}
+ {'term': 'roast pork buns', 'polarity': 'negative', 'from': '34', 'to': '49'}
+ {'term': 'egg custards', 'polarity': 'negative', 'from': '54', 'to': '66'}]","[{'category': 'food', 'polarity': 'negative'}]"
+2152,The bagels are fabulous.,"[{'term': 'bagels', 'polarity': 'positive', 'from': '4', 'to': '10'}]","[{'category': 'food', 'polarity': 'positive'}]"
+3358,I never had anything I didn't like here.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2751,I definitely wouldn't go back.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'negative'}]"
+882,"While the ambiance and atmosphere were great, the food and service could have been a lot better.","[{'term': 'ambiance', 'polarity': 'positive', 'from': '10', 'to': '18'}
+ {'term': 'atmosphere', 'polarity': 'positive', 'from': '23', 'to': '33'}
+ {'term': 'food', 'polarity': 'negative', 'from': '50', 'to': '54'}
+ {'term': 'service', 'polarity': 'negative', 'from': '59', 'to': '66'}]","[{'category': 'ambience', 'polarity': 'positive'}
+ {'category': 'food', 'polarity': 'negative'}
+ {'category': 'service', 'polarity': 'negative'}]"
+1124,"Our waitress was sweet and accomodating, not overbearing.","[{'term': 'waitress', 'polarity': 'positive', 'from': '4', 'to': '12'}]","[{'category': 'service', 'polarity': 'positive'}]"
+3546,I have tried literally every restaurant on curry row.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+3020,"My goodness, everything from the fish to the rice to the seaweed was absolutely amazing.","[{'term': 'fish', 'polarity': 'positive', 'from': '33', 'to': '37'}
+ {'term': 'rice', 'polarity': 'positive', 'from': '45', 'to': '49'}
+ {'term': 'seaweed', 'polarity': 'positive', 'from': '57', 'to': '64'}]","[{'category': 'food', 'polarity': 'positive'}]"
+746,I went to this restaurant with a woman that I met recently.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+3170,"Good spreads, great beverage selections and bagels really tasty.","[{'term': 'spreads', 'polarity': 'positive', 'from': '5', 'to': '12'}
+ {'term': 'beverage selections', 'polarity': 'positive', 'from': '20', 'to': '39'}
+ {'term': 'bagels', 'polarity': 'positive', 'from': '44', 'to': '50'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2171,The food options rule.,"[{'term': 'food options', 'polarity': 'positive', 'from': '4', 'to': '16'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2811,Consistently good Japanese Tapas.,"[{'term': 'Japanese Tapas', 'polarity': 'positive', 'from': '18', 'to': '32'}]","[{'category': 'food', 'polarity': 'positive'}]"
+762,I went to Ruby Foo's after work with a group of 6.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+339,The sushi was awful!,"[{'term': 'sushi', 'polarity': 'negative', 'from': '4', 'to': '9'}]","[{'category': 'food', 'polarity': 'negative'}]"
+217,My boyfriend and I went there to celebrate my birthday the other night and all I can say is that it was magnificent.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3478,Now it's so crowded and loud you can't even talk to the person next to you.,[],"[{'category': 'ambience', 'polarity': 'negative'}]"
+1180,"Go, go, hurry, before everyone finds out about it.",[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3372,I've been many time and have never been disappointed.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+776,The food was great.,"[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}]","[{'category': 'food', 'polarity': 'positive'}]"
+3208,Don't leave without trying One Night in Tokyo.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2673,I would go back tho.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1380,Definately check it out!!!,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3641,You cannot go wrong with this place.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2806,"As a Japanese native, I've lived in the Tristate area for over 8 years, but I was just so amazed at this place.",[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2630,I loving bringing friends here -and I do so every chance I get.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+924,With the theater 2 blocks away we had a delicious meal in a beautiful room.,"[{'term': 'meal', 'polarity': 'positive', 'from': '50', 'to': '54'}
+ {'term': 'room', 'polarity': 'positive', 'from': '70', 'to': '74'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'ambience', 'polarity': 'positive'}]"
+3411,Even my Indian friend couldn't believe how good and tasty everything was.,[],"[{'category': 'food', 'polarity': 'positive'}]"
+2164,We were not dissappointed in the least bit by this little gem.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3077,A pleasant surprise.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+745,This was a repeat visit and we'll definitely be back again.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1273,I love the fact that the pizza tastes so good and is so cheap.,"[{'term': 'pizza', 'polarity': 'positive', 'from': '25', 'to': '30'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}]"
+179,"Service was prompt, friendly and great.","[{'term': 'Service', 'polarity': 'positive', 'from': '0', 'to': '7'}]","[{'category': 'service', 'polarity': 'positive'}]"
+2460,OU MUST TRY THIS RESTAURANT.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3045,All pretty good.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1698,"Have eaten at Ginger House several times, and it's always good.",[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+109,"I haven't eat a lamb chop as delicious as that, the salads are really nice dressed with lemon and extra virgnin olive oil.","[{'term': 'lamb chop', 'polarity': 'positive', 'from': '16', 'to': '25'}
+ {'term': 'salads', 'polarity': 'positive', 'from': '52', 'to': '58'}]","[{'category': 'food', 'polarity': 'positive'}]"
+1057,Drawbacks: service is slow and they don't toast!,"[{'term': 'service', 'polarity': 'negative', 'from': '11', 'to': '18'}]","[{'category': 'service', 'polarity': 'negative'}]"
+2186,It is by far my favorite restaurant in Brooklyn.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3471,I've been to Joya twice and I will never go again.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'negative'}]"
+1401,A hearty two thumbs up!,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1112,Great find!!!,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3368,"If only they delivered, they'd make a mint!",[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3495,Was surprisingly disappointed.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'negative'}]"
+2451,The prices were fantastic.,"[{'term': 'prices', 'polarity': 'positive', 'from': '4', 'to': '10'}]","[{'category': 'price', 'polarity': 'positive'}]"
+948,I'm told that it is open 24hrs which is good.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2202,What more could you want?,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2740,Excellent experience.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+537,Definitely a neighborhood favorite.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1548,"The food is terrible and overall, I would have to say avoid at all costs.","[{'term': 'food', 'polarity': 'negative', 'from': '4', 'to': '8'}]","[{'category': 'food', 'polarity': 'negative'}]"
+134,The food is prepared quickly and efficiently.,"[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2708,"The food is fresh, delicious, and reasonably priced.","[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}
+ {'term': 'priced', 'polarity': 'positive', 'from': '45', 'to': '51'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}]"
+1455,This is my favorite Italian restaurant in all of New York City.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+2591,"Anyway, this is the last time I cross the williamsburg.",[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'negative'}]"
+1593,I am bringing my whole family back next time.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+1769,Love YUKA.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3575,"As we were leaving, the couple standing by the door said to another waiter, we're not in a hurry.","[{'term': 'waiter', 'polarity': 'neutral', 'from': '68', 'to': '74'}]","[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+1105,I have been coming to this neighborhood spot for years.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+2575,We will be back.,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+742,The outdoor atmosphere of sitting on the sidewalk watching the world go by 50 feet away on 6th avenue on a cool evening was wonderful.,"[{'term': 'outdoor atmosphere', 'polarity': 'positive', 'from': '4', 'to': '22'}]","[{'category': 'ambience', 'polarity': 'positive'}]"
+1471,"A large is $20, and toppings are about $3 each.","[{'term': 'toppings', 'polarity': 'neutral', 'from': '20', 'to': '28'}]","[{'category': 'price', 'polarity': 'neutral'}]"
+1656,The spicy tuna and salmon are the best we've ever had.,"[{'term': 'spicy tuna', 'polarity': 'positive', 'from': '4', 'to': '14'}
+ {'term': 'salmon', 'polarity': 'positive', 'from': '19', 'to': '25'}]","[{'category': 'food', 'polarity': 'positive'}]"
+2769,A guaranteeed delight!,[],"[{'category': 'anecdotes/miscellaneous', 'polarity': 'positive'}]"
+3681,"The food was very good, a great deal, and the place its self was great.","[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}
+ {'term': 'place', 'polarity': 'positive', 'from': '46', 'to': '51'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'ambience', 'polarity': 'positive'}
+ {'category': 'price', 'polarity': 'positive'}]"
+2205,The food is usually good but it certainly isn't a relaxing place to go.,"[{'term': 'food', 'polarity': 'positive', 'from': '4', 'to': '8'}
+ {'term': 'place', 'polarity': 'negative', 'from': '59', 'to': '64'}]","[{'category': 'food', 'polarity': 'positive'}
+ {'category': 'ambience', 'polarity': 'negative'}]"
+1159,"After dinner, take your date to the HUGE dance floor, probably one of the biggest you'll see in NY.","[{'term': 'dinner', 'polarity': 'neutral', 'from': '6', 'to': '12'}
+ {'term': 'dance floor', 'polarity': 'positive', 'from': '41', 'to': '52'}]","[{'category': 'ambience', 'polarity': 'positive'}]"
+628,The server was really cool and served us our food and drinks with a smile.,"[{'term': 'server', 'polarity': 'positive', 'from': '4', 'to': '10'}
+ {'term': 'served', 'polarity': 'positive', 'from': '31', 'to': '37'}
+ {'term': 'food', 'polarity': 'neutral', 'from': '45', 'to': '49'}
+ {'term': 'drinks', 'polarity': 'neutral', 'from': '54', 'to': '60'}]","[{'category': 'service', 'polarity': 'positive'}]"
+2912,"The dishes offered were unique, very tasty and fresh from the lamb sausages, sardines with biscuits, large whole shrimp to the amazing pistachio ice cream (the best and freshest I've ever had).","[{'term': 'dishes', 'polarity': 'positive', 'from': '4', 'to': '10'}
+ {'term': 'lamb sausages', 'polarity': 'positive', 'from': '62', 'to': '75'}
+ {'term': 'sardines with biscuits', 'polarity': 'positive', 'from': '77', 'to': '99'}
+ {'term': 'large whole shrimp', 'polarity': 'positive', 'from': '101', 'to': '119'}
+ {'term': 'pistachio ice cream', 'polarity': 'positive', 'from': '135', 'to': '154'}]","[{'category': 'food', 'polarity': 'positive'}]"
+3188,Went there for an office lunch.,"[{'term': 'office lunch', 'polarity': 'neutral', 'from': '18', 'to': '30'}]","[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
+3041,"We've only eaten in the restaurant once, but we have ordered many times for dinner.","[{'term': 'dinner', 'polarity': 'neutral', 'from': '76', 'to': '82'}]","[{'category': 'anecdotes/miscellaneous', 'polarity': 'neutral'}]"
