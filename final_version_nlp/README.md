@@ -511,7 +511,7 @@ Access at: `http://localhost:8501`
 │  █████████ Negative (1)                               │
 │            Neutral (0)                                 │
 │                                                        │
-│  ⏱️ Inference time: 45ms                               │
+│   Inference time: 45ms                               │
 └────────────────────────────────────────────────────────┘
 ```
 
