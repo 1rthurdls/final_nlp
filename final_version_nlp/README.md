@@ -22,12 +22,12 @@ This fine-grained analysis provides actionable insights for businesses to unders
 
 ### Key Features
 
-- 🎯 **Joint Learning**: Simultaneous aspect extraction and sentiment classification using multi-task learning
-- 🏆 **Multiple Models**: Rule-based baseline, BiLSTM, BERT-based, and BERT-CRF architectures
-- 📊 **Comprehensive Evaluation**: Detailed metrics, ablation studies, and extensive error analysis (100+ errors categorized)
-- 🎨 **Interactive Demo**: User-friendly Streamlit web application with real-time predictions
-- 🐳 **Docker Support**: Easy deployment with Docker and Docker Compose
-- 📈 **Visualization**: Rich visualizations of results, attention weights, and model performance
+-  **Joint Learning**: Simultaneous aspect extraction and sentiment classification using multi-task learning
+-  **Multiple Models**: Rule-based baseline, BiLSTM, BERT-based, and BERT-CRF architectures
+-  **Comprehensive Evaluation**: Detailed metrics, ablation studies, and extensive error analysis (100+ errors categorized)
+-  **Interactive Demo**: User-friendly Streamlit web application with real-time predictions
+-  **Docker Support**: Easy deployment with Docker and Docker Compose
+-  **Visualization**: Rich visualizations of results, attention weights, and model performance
 
 ---
 
@@ -382,13 +382,13 @@ We conducted extensive error analysis on 100+ misclassified examples from the te
 Most challenging error type where the aspect is implied but not stated:
 
 ```
-❌ Example 1:
+ Example 1:
 Text: "It was absolutely delicious!"
 True: [food: positive]
 Pred: []
 Issue: "it" refers to food (implicit)
 
-❌ Example 2:
+ Example 2:
 Text: "We waited 45 minutes for a table."
 True: [service: negative]
 Pred: []
@@ -400,7 +400,7 @@ Issue: Service complaint without mentioning "service"
 Model struggles with distant negation or double negatives:
 
 ```
-❌ Example:
+ Example:
 Text: "The pasta wasn't bad, just not memorable."
 True: [pasta: neutral]
 Pred: [pasta: negative]
@@ -412,7 +412,7 @@ Issue: "wasn't bad" = neutral, not negative
 Compound aspects are sometimes split or partially detected:
 
 ```
-❌ Example:
+ Example:
 Text: "Their wine selection is impressive."
 True: [wine selection: positive]
 Pred: [wine: positive]  # "selection" missed
@@ -423,7 +423,7 @@ Pred: [wine: positive]  # "selection" missed
 Sentences with contrastive conjunctions challenge the model:
 
 ```
-❌ Example:
+ Example:
 Text: "Food was great but expensive."
 True: [food: positive, price: negative]
 Pred: [food: positive, expensive: negative]
@@ -464,24 +464,24 @@ Access at: `http://localhost:8501`
 
 ### Features
 
-- 📝 **Text Input**: Enter custom reviews or select from examples
-- 🎯 **Real-time Prediction**: Instant aspect extraction and sentiment classification
-- 🎨 **Visual Highlighting**: Color-coded aspect highlights in text
+-  **Text Input**: Enter custom reviews or select from examples
+-  **Real-time Prediction**: Instant aspect extraction and sentiment classification
+-  **Visual Highlighting**: Color-coded aspect highlights in text
   - 🟢 Green: Positive
   - 🔴 Red: Negative
   - 🟡 Yellow: Neutral
-- 📊 **Visualizations**:
+-  **Visualizations**:
   - Sentiment distribution bar charts
   - Aspect frequency plots
   - Confidence score displays
-- ⚡ **Performance Metrics**: Inference time and model information
-- 🔄 **Model Comparison**: Switch between BERT and rule-based models
+-  **Performance Metrics**: Inference time and model information
+-  **Model Comparison**: Switch between BERT and rule-based models
 
 ### Demo Interface
 
 ```
 ┌────────────────────────────────────────────────────────┐
-│  🎯 Aspect-Based Sentiment Analysis                    │
+│   Aspect-Based Sentiment Analysis                    │
 ├────────────────────────────────────────────────────────┤
 │                                                        │
 │  Input Review:                                         │
@@ -489,7 +489,7 @@ Access at: `http://localhost:8501`
 │  │ The food was amazing but the service was slow.   │ │
 │  └──────────────────────────────────────────────────┘ │
 │                                                        │
-│  [🔍 Analyze]                                          │
+│  [ Analyze]                                          │
 │                                                        │
 │  ─────────────────────────────────────────────────── │
 │                                                        │
@@ -727,13 +727,3 @@ This project is licensed under the MIT License - see LICENSE file for details.
 
 ---
 
-## Contact
-
-For questions, issues, or collaborations:
-
-- **Email**: your.email@example.com
-- **GitHub Issues**: [Create an issue](link-to-your-repo/issues)
-
----
-
-**Built with ❤️ for NLP Research**
